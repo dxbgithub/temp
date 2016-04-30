@@ -16,6 +16,8 @@ var taxiFee = function(distance, waitTime){
 	}
 
 	var price = priceBase*(distance-distStart);
+	
+	
 	if (distance >= distThresh){
 		price *= priceRatio;
 	}
