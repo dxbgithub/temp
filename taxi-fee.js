@@ -15,13 +15,11 @@ var taxiFee = function(distance, waitTime){
 		return (priceStart);
 	}
 
-	var price = priceBase*(distance-distStart);
-	
-	
+	var price2 = priceBase*(distance-distStart);
 	if (distance >= distThresh){
-		price *= priceRatio;
+		price2 *= priceRatio;
 	}
-	return Math.round(price + priceStart + priceWait * waitTime);
+	return Math.round(price2+priceStart+priceWait*waitTime);
 };
 
 module.exports.taxiFee = taxiFee;
