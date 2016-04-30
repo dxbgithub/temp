@@ -21,7 +21,7 @@ var taxiFee = function(distance, waitTime){
 	if (distance >= distThresh){
 		price *= priceRatio;
 	}
-	return Math.round(price+priceStart+priceWait*waitTime);
+	return Math.round(price + priceStart + priceWait * waitTime);
 };
 
 module.exports.taxiFee = taxiFee;
