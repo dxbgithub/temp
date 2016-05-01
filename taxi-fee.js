@@ -1,5 +1,5 @@
 var priceBase = 0.8;
-var priceRatio = 1.5
+var priceRatio = 5.5
 var priceStart = 6;
 var priceWait = 0.25;
 var distThresh = 8;
