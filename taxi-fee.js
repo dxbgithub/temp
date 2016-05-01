@@ -1,4 +1,4 @@
-var priceBase = 2.8;
+var priceBase = 1.8;
 var priceRatio = 1.5
 var priceStart = 6;
 var priceWait = 0.25;
